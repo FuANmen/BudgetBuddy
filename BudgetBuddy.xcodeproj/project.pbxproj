@@ -1,0 +1,740 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A62076372CB1774D00C38C52 /* BudgetBreakdownListForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = A62076152CB1774D00C38C52 /* BudgetBreakdownListForm.swift */; };
+		A62076382CB1774D00C38C52 /* BudgetForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = A62076162CB1774D00C38C52 /* BudgetForm.swift */; };
+		A62076392CB1774D00C38C52 /* GoalsListForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = A62076182CB1774D00C38C52 /* GoalsListForm.swift */; };
+		A620763A2CB1774D00C38C52 /* MonthlyInExForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = A62076192CB1774D00C38C52 /* MonthlyInExForm.swift */; };
+		A620763B2CB1774D00C38C52 /* MonthlyInfosForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = A620761A2CB1774D00C38C52 /* MonthlyInfosForm.swift */; };
+		A620763C2CB1774D00C38C52 /* RoundedProgressBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A620761B2CB1774D00C38C52 /* RoundedProgressBarView.swift */; };
+		A620763D2CB1774D00C38C52 /* LoginForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = A620761D2CB1774D00C38C52 /* LoginForm.swift */; };
+		A620763E2CB1774D00C38C52 /* MainFormToolbarForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = A620761F2CB1774D00C38C52 /* MainFormToolbarForm.swift */; };
+		A620763F2CB1774D00C38C52 /* MainFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A62076202CB1774D00C38C52 /* MainFormView.swift */; };
+		A62076402CB1774D00C38C52 /* MainFormSidebar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A62076222CB1774D00C38C52 /* MainFormSidebar.swift */; };
+		A62076412CB1774D00C38C52 /* UserInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A62076232CB1774D00C38C52 /* UserInfoView.swift */; };
+		A62076422CB1774D00C38C52 /* WalletListForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = A62076242CB1774D00C38C52 /* WalletListForm.swift */; };
+		A62076432CB1774D00C38C52 /* WalletListToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A62076252CB1774D00C38C52 /* WalletListToolbar.swift */; };
+		A62076442CB1774D00C38C52 /* NewBudgetBreakdownForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = A62076272CB1774D00C38C52 /* NewBudgetBreakdownForm.swift */; };
+		A62076452CB1774D00C38C52 /* NewGoalForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = A62076292CB1774D00C38C52 /* NewGoalForm.swift */; };
+		A62076462CB1774D00C38C52 /* NewTransactionForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = A620762B2CB1774D00C38C52 /* NewTransactionForm.swift */; };
+		A62076472CB1774D00C38C52 /* NewWalletForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = A620762D2CB1774D00C38C52 /* NewWalletForm.swift */; };
+		A62076482CB1774D00C38C52 /* SignInForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = A620762F2CB1774D00C38C52 /* SignInForm.swift */; };
+		A62076492CB1774D00C38C52 /* MonthlyTransactionsForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = A62076312CB1774D00C38C52 /* MonthlyTransactionsForm.swift */; };
+		A620764B2CB1774D00C38C52 /* WalletEditForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = A62076342CB1774D00C38C52 /* WalletEditForm.swift */; };
+		A62076552CB1775100C38C52 /* BudgetBreakdown.swift in Sources */ = {isa = PBXBuildFile; fileRef = A620764C2CB1775100C38C52 /* BudgetBreakdown.swift */; };
+		A62076562CB1775100C38C52 /* Goal.swift in Sources */ = {isa = PBXBuildFile; fileRef = A620764D2CB1775100C38C52 /* Goal.swift */; };
+		A62076572CB1775100C38C52 /* MonthlyGoals.swift in Sources */ = {isa = PBXBuildFile; fileRef = A620764E2CB1775100C38C52 /* MonthlyGoals.swift */; };
+		A62076582CB1775100C38C52 /* MonthlyInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A620764F2CB1775100C38C52 /* MonthlyInfo.swift */; };
+		A62076592CB1775100C38C52 /* MonthlyTransactions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A62076502CB1775100C38C52 /* MonthlyTransactions.swift */; };
+		A620765A2CB1775100C38C52 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = A62076512CB1775100C38C52 /* Transaction.swift */; };
+		A620765B2CB1775100C38C52 /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A62076522CB1775100C38C52 /* UserInfo.swift */; };
+		A620765C2CB1775100C38C52 /* Wallet.swift in Sources */ = {isa = PBXBuildFile; fileRef = A62076532CB1775100C38C52 /* Wallet.swift */; };
+		A66255D72CBB96300065CA07 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A66255D62CBB96300065CA07 /* GoogleService-Info.plist */; };
+		A675BDCB2CC275650075F5ED /* EditGoalForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = A675BDCA2CC275650075F5ED /* EditGoalForm.swift */; };
+		A675BDCE2CC28EC30075F5ED /* EditTransactionForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = A675BDCD2CC28EC30075F5ED /* EditTransactionForm.swift */; };
+		A675BDD42CC415A60075F5ED /* TargetMonthDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A675BDD32CC415A60075F5ED /* TargetMonthDatePicker.swift */; };
+		A675BDD72CC6344F0075F5ED /* MonthlyInfoCash.swift in Sources */ = {isa = PBXBuildFile; fileRef = A675BDD62CC6344F0075F5ED /* MonthlyInfoCash.swift */; };
+		A697B1432CC0883A0017702D /* GoalForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = A697B1422CC0883A0017702D /* GoalForm.swift */; };
+		A697B1452CC22C050017702D /* PieChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = A697B1442CC22C050017702D /* PieChart.swift */; };
+		A6F0E94D2CB0DE7E0020164F /* BudgetBuddyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F0E94C2CB0DE7E0020164F /* BudgetBuddyApp.swift */; };
+		A6F0E9512CB0DE7F0020164F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6F0E9502CB0DE7F0020164F /* Assets.xcassets */; };
+		A6F0E9542CB0DE7F0020164F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6F0E9532CB0DE7F0020164F /* Preview Assets.xcassets */; };
+		A6F0E95E2CB0DED70020164F /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = A6F0E95D2CB0DED70020164F /* FirebaseAnalytics */; };
+		A6F0E9AA2CB0E2C90020164F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6F0E9A92CB0E2C90020164F /* ContentView.swift */; };
+		CA1521BEAD4F03BD33988B43 /* Pods_BudgetBuddy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34E350887A8372D5274828D7 /* Pods_BudgetBuddy.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		13A056818B665A76DDFC8734 /* Pods-BudgetBuddy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BudgetBuddy.debug.xcconfig"; path = "Target Support Files/Pods-BudgetBuddy/Pods-BudgetBuddy.debug.xcconfig"; sourceTree = "<group>"; };
+		34E350887A8372D5274828D7 /* Pods_BudgetBuddy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BudgetBuddy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		902CCE71F46B2FC12CD1E71F /* Pods-BudgetBuddy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BudgetBuddy.release.xcconfig"; path = "Target Support Files/Pods-BudgetBuddy/Pods-BudgetBuddy.release.xcconfig"; sourceTree = "<group>"; };
+		A62076152CB1774D00C38C52 /* BudgetBreakdownListForm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BudgetBreakdownListForm.swift; sourceTree = "<group>"; };
+		A62076162CB1774D00C38C52 /* BudgetForm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BudgetForm.swift; sourceTree = "<group>"; };
+		A62076182CB1774D00C38C52 /* GoalsListForm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoalsListForm.swift; sourceTree = "<group>"; };
+		A62076192CB1774D00C38C52 /* MonthlyInExForm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonthlyInExForm.swift; sourceTree = "<group>"; };
+		A620761A2CB1774D00C38C52 /* MonthlyInfosForm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonthlyInfosForm.swift; sourceTree = "<group>"; };
+		A620761B2CB1774D00C38C52 /* RoundedProgressBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedProgressBarView.swift; sourceTree = "<group>"; };
+		A620761D2CB1774D00C38C52 /* LoginForm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginForm.swift; sourceTree = "<group>"; };
+		A620761F2CB1774D00C38C52 /* MainFormToolbarForm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainFormToolbarForm.swift; sourceTree = "<group>"; };
+		A62076202CB1774D00C38C52 /* MainFormView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainFormView.swift; sourceTree = "<group>"; };
+		A62076222CB1774D00C38C52 /* MainFormSidebar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainFormSidebar.swift; sourceTree = "<group>"; };
+		A62076232CB1774D00C38C52 /* UserInfoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserInfoView.swift; sourceTree = "<group>"; };
+		A62076242CB1774D00C38C52 /* WalletListForm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalletListForm.swift; sourceTree = "<group>"; };
+		A62076252CB1774D00C38C52 /* WalletListToolbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalletListToolbar.swift; sourceTree = "<group>"; };
+		A62076272CB1774D00C38C52 /* NewBudgetBreakdownForm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewBudgetBreakdownForm.swift; sourceTree = "<group>"; };
+		A62076292CB1774D00C38C52 /* NewGoalForm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewGoalForm.swift; sourceTree = "<group>"; };
+		A620762B2CB1774D00C38C52 /* NewTransactionForm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewTransactionForm.swift; sourceTree = "<group>"; };
+		A620762D2CB1774D00C38C52 /* NewWalletForm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewWalletForm.swift; sourceTree = "<group>"; };
+		A620762F2CB1774D00C38C52 /* SignInForm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInForm.swift; sourceTree = "<group>"; };
+		A62076312CB1774D00C38C52 /* MonthlyTransactionsForm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonthlyTransactionsForm.swift; sourceTree = "<group>"; };
+		A62076342CB1774D00C38C52 /* WalletEditForm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalletEditForm.swift; sourceTree = "<group>"; };
+		A620764C2CB1775100C38C52 /* BudgetBreakdown.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BudgetBreakdown.swift; sourceTree = "<group>"; };
+		A620764D2CB1775100C38C52 /* Goal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Goal.swift; sourceTree = "<group>"; };
+		A620764E2CB1775100C38C52 /* MonthlyGoals.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonthlyGoals.swift; sourceTree = "<group>"; };
+		A620764F2CB1775100C38C52 /* MonthlyInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonthlyInfo.swift; sourceTree = "<group>"; };
+		A62076502CB1775100C38C52 /* MonthlyTransactions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonthlyTransactions.swift; sourceTree = "<group>"; };
+		A62076512CB1775100C38C52 /* Transaction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		A62076522CB1775100C38C52 /* UserInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
+		A62076532CB1775100C38C52 /* Wallet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Wallet.swift; sourceTree = "<group>"; };
+		A66255D62CBB96300065CA07 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A675BDCA2CC275650075F5ED /* EditGoalForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditGoalForm.swift; sourceTree = "<group>"; };
+		A675BDCD2CC28EC30075F5ED /* EditTransactionForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTransactionForm.swift; sourceTree = "<group>"; };
+		A675BDD32CC415A60075F5ED /* TargetMonthDatePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetMonthDatePicker.swift; sourceTree = "<group>"; };
+		A675BDD62CC6344F0075F5ED /* MonthlyInfoCash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthlyInfoCash.swift; sourceTree = "<group>"; };
+		A697B1422CC0883A0017702D /* GoalForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalForm.swift; sourceTree = "<group>"; };
+		A697B1442CC22C050017702D /* PieChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieChart.swift; sourceTree = "<group>"; };
+		A6F0E9492CB0DE7E0020164F /* BudgetBuddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BudgetBuddy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6F0E94C2CB0DE7E0020164F /* BudgetBuddyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetBuddyApp.swift; sourceTree = "<group>"; };
+		A6F0E9502CB0DE7F0020164F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A6F0E9532CB0DE7F0020164F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A6F0E9A92CB0E2C90020164F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6F0E9462CB0DE7E0020164F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6F0E95E2CB0DED70020164F /* FirebaseAnalytics in Frameworks */,
+				CA1521BEAD4F03BD33988B43 /* Pods_BudgetBuddy.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1962E24F9BAEDCDAA842B678 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				34E350887A8372D5274828D7 /* Pods_BudgetBuddy.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3740909E1C1712315E7277C5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				13A056818B665A76DDFC8734 /* Pods-BudgetBuddy.debug.xcconfig */,
+				902CCE71F46B2FC12CD1E71F /* Pods-BudgetBuddy.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A62076172CB1774D00C38C52 /* BudgetForm */ = {
+			isa = PBXGroup;
+			children = (
+				A62076152CB1774D00C38C52 /* BudgetBreakdownListForm.swift */,
+				A62076162CB1774D00C38C52 /* BudgetForm.swift */,
+			);
+			path = BudgetForm;
+			sourceTree = "<group>";
+		};
+		A620761C2CB1774D00C38C52 /* MonthlyInfosForm */ = {
+			isa = PBXGroup;
+			children = (
+				A62076182CB1774D00C38C52 /* GoalsListForm.swift */,
+				A62076192CB1774D00C38C52 /* MonthlyInExForm.swift */,
+				A620761A2CB1774D00C38C52 /* MonthlyInfosForm.swift */,
+			);
+			path = MonthlyInfosForm;
+			sourceTree = "<group>";
+		};
+		A620761E2CB1774D00C38C52 /* LoginForm */ = {
+			isa = PBXGroup;
+			children = (
+				A620761D2CB1774D00C38C52 /* LoginForm.swift */,
+			);
+			path = LoginForm;
+			sourceTree = "<group>";
+		};
+		A62076212CB1774D00C38C52 /* MainForm */ = {
+			isa = PBXGroup;
+			children = (
+				A62076202CB1774D00C38C52 /* MainFormView.swift */,
+				A620761F2CB1774D00C38C52 /* MainFormToolbarForm.swift */,
+			);
+			path = MainForm;
+			sourceTree = "<group>";
+		};
+		A62076262CB1774D00C38C52 /* MainFormSidebar */ = {
+			isa = PBXGroup;
+			children = (
+				A62076222CB1774D00C38C52 /* MainFormSidebar.swift */,
+				A62076232CB1774D00C38C52 /* UserInfoView.swift */,
+				A62076242CB1774D00C38C52 /* WalletListForm.swift */,
+				A62076252CB1774D00C38C52 /* WalletListToolbar.swift */,
+			);
+			path = MainFormSidebar;
+			sourceTree = "<group>";
+		};
+		A62076282CB1774D00C38C52 /* NewBudgetBreakdownForm */ = {
+			isa = PBXGroup;
+			children = (
+				A62076272CB1774D00C38C52 /* NewBudgetBreakdownForm.swift */,
+			);
+			path = NewBudgetBreakdownForm;
+			sourceTree = "<group>";
+		};
+		A620762A2CB1774D00C38C52 /* NewGoalForm */ = {
+			isa = PBXGroup;
+			children = (
+				A62076292CB1774D00C38C52 /* NewGoalForm.swift */,
+			);
+			path = NewGoalForm;
+			sourceTree = "<group>";
+		};
+		A620762C2CB1774D00C38C52 /* NewTransactionForm */ = {
+			isa = PBXGroup;
+			children = (
+				A620762B2CB1774D00C38C52 /* NewTransactionForm.swift */,
+			);
+			path = NewTransactionForm;
+			sourceTree = "<group>";
+		};
+		A620762E2CB1774D00C38C52 /* NewWalletForm */ = {
+			isa = PBXGroup;
+			children = (
+				A620762D2CB1774D00C38C52 /* NewWalletForm.swift */,
+			);
+			path = NewWalletForm;
+			sourceTree = "<group>";
+		};
+		A62076302CB1774D00C38C52 /* SignInForm */ = {
+			isa = PBXGroup;
+			children = (
+				A620762F2CB1774D00C38C52 /* SignInForm.swift */,
+			);
+			path = SignInForm;
+			sourceTree = "<group>";
+		};
+		A62076332CB1774D00C38C52 /* MonthlyTransactionsForm */ = {
+			isa = PBXGroup;
+			children = (
+				A62076312CB1774D00C38C52 /* MonthlyTransactionsForm.swift */,
+			);
+			path = MonthlyTransactionsForm;
+			sourceTree = "<group>";
+		};
+		A62076352CB1774D00C38C52 /* WalletEditForm */ = {
+			isa = PBXGroup;
+			children = (
+				A62076342CB1774D00C38C52 /* WalletEditForm.swift */,
+			);
+			path = WalletEditForm;
+			sourceTree = "<group>";
+		};
+		A62076362CB1774D00C38C52 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A675BDCC2CC28EB50075F5ED /* EditTransactionForm */,
+				A675BDC92CC275540075F5ED /* EditGoalForm */,
+				A697B1412CC088280017702D /* GoalForm */,
+				A62076172CB1774D00C38C52 /* BudgetForm */,
+				A620761E2CB1774D00C38C52 /* LoginForm */,
+				A62076212CB1774D00C38C52 /* MainForm */,
+				A620761C2CB1774D00C38C52 /* MonthlyInfosForm */,
+				A62076262CB1774D00C38C52 /* MainFormSidebar */,
+				A62076282CB1774D00C38C52 /* NewBudgetBreakdownForm */,
+				A620762A2CB1774D00C38C52 /* NewGoalForm */,
+				A620762C2CB1774D00C38C52 /* NewTransactionForm */,
+				A620762E2CB1774D00C38C52 /* NewWalletForm */,
+				A62076302CB1774D00C38C52 /* SignInForm */,
+				A62076332CB1774D00C38C52 /* MonthlyTransactionsForm */,
+				A62076352CB1774D00C38C52 /* WalletEditForm */,
+				A675BDD22CC415910075F5ED /* Picker */,
+				A675BDD12CC3E1D50075F5ED /* Charts */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A62076542CB1775100C38C52 /* Classies */ = {
+			isa = PBXGroup;
+			children = (
+				A620764C2CB1775100C38C52 /* BudgetBreakdown.swift */,
+				A620764D2CB1775100C38C52 /* Goal.swift */,
+				A620764E2CB1775100C38C52 /* MonthlyGoals.swift */,
+				A620764F2CB1775100C38C52 /* MonthlyInfo.swift */,
+				A62076502CB1775100C38C52 /* MonthlyTransactions.swift */,
+				A62076512CB1775100C38C52 /* Transaction.swift */,
+				A62076522CB1775100C38C52 /* UserInfo.swift */,
+				A62076532CB1775100C38C52 /* Wallet.swift */,
+				A675BDD62CC6344F0075F5ED /* MonthlyInfoCash.swift */,
+			);
+			path = Classies;
+			sourceTree = "<group>";
+		};
+		A675BDC92CC275540075F5ED /* EditGoalForm */ = {
+			isa = PBXGroup;
+			children = (
+				A675BDCA2CC275650075F5ED /* EditGoalForm.swift */,
+			);
+			path = EditGoalForm;
+			sourceTree = "<group>";
+		};
+		A675BDCC2CC28EB50075F5ED /* EditTransactionForm */ = {
+			isa = PBXGroup;
+			children = (
+				A675BDCD2CC28EC30075F5ED /* EditTransactionForm.swift */,
+			);
+			path = EditTransactionForm;
+			sourceTree = "<group>";
+		};
+		A675BDD12CC3E1D50075F5ED /* Charts */ = {
+			isa = PBXGroup;
+			children = (
+				A697B1442CC22C050017702D /* PieChart.swift */,
+				A620761B2CB1774D00C38C52 /* RoundedProgressBarView.swift */,
+			);
+			path = Charts;
+			sourceTree = "<group>";
+		};
+		A675BDD22CC415910075F5ED /* Picker */ = {
+			isa = PBXGroup;
+			children = (
+				A675BDD32CC415A60075F5ED /* TargetMonthDatePicker.swift */,
+			);
+			path = Picker;
+			sourceTree = "<group>";
+		};
+		A697B1412CC088280017702D /* GoalForm */ = {
+			isa = PBXGroup;
+			children = (
+				A697B1422CC0883A0017702D /* GoalForm.swift */,
+			);
+			path = GoalForm;
+			sourceTree = "<group>";
+		};
+		A6F0E9402CB0DE7E0020164F = {
+			isa = PBXGroup;
+			children = (
+				A6F0E94B2CB0DE7E0020164F /* BudgetBuddy */,
+				A6F0E94A2CB0DE7E0020164F /* Products */,
+				3740909E1C1712315E7277C5 /* Pods */,
+				1962E24F9BAEDCDAA842B678 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A6F0E94A2CB0DE7E0020164F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6F0E9492CB0DE7E0020164F /* BudgetBuddy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6F0E94B2CB0DE7E0020164F /* BudgetBuddy */ = {
+			isa = PBXGroup;
+			children = (
+				A62076542CB1775100C38C52 /* Classies */,
+				A62076362CB1774D00C38C52 /* Views */,
+				A6F0E94C2CB0DE7E0020164F /* BudgetBuddyApp.swift */,
+				A6F0E9A92CB0E2C90020164F /* ContentView.swift */,
+				A6F0E9502CB0DE7F0020164F /* Assets.xcassets */,
+				A66255D62CBB96300065CA07 /* GoogleService-Info.plist */,
+				A6F0E9522CB0DE7F0020164F /* Preview Content */,
+			);
+			path = BudgetBuddy;
+			sourceTree = "<group>";
+		};
+		A6F0E9522CB0DE7F0020164F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A6F0E9532CB0DE7F0020164F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6F0E9482CB0DE7E0020164F /* BudgetBuddy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6F0E9572CB0DE7F0020164F /* Build configuration list for PBXNativeTarget "BudgetBuddy" */;
+			buildPhases = (
+				AABF555DBC5591E9077C4994 /* [CP] Check Pods Manifest.lock */,
+				A6F0E9452CB0DE7E0020164F /* Sources */,
+				A6F0E9462CB0DE7E0020164F /* Frameworks */,
+				A6F0E9472CB0DE7E0020164F /* Resources */,
+				FFFC7527FD2891C79CAD4902 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BudgetBuddy;
+			packageProductDependencies = (
+				A6F0E95D2CB0DED70020164F /* FirebaseAnalytics */,
+			);
+			productName = BudgetBuddy;
+			productReference = A6F0E9492CB0DE7E0020164F /* BudgetBuddy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6F0E9412CB0DE7E0020164F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					A6F0E9482CB0DE7E0020164F = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = A6F0E9442CB0DE7E0020164F /* Build configuration list for PBXProject "BudgetBuddy" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A6F0E9402CB0DE7E0020164F;
+			packageReferences = (
+				A6F0E95C2CB0DED70020164F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = A6F0E94A2CB0DE7E0020164F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6F0E9482CB0DE7E0020164F /* BudgetBuddy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6F0E9472CB0DE7E0020164F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6F0E9542CB0DE7F0020164F /* Preview Assets.xcassets in Resources */,
+				A6F0E9512CB0DE7F0020164F /* Assets.xcassets in Resources */,
+				A66255D72CBB96300065CA07 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AABF555DBC5591E9077C4994 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BudgetBuddy-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FFFC7527FD2891C79CAD4902 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BudgetBuddy/Pods-BudgetBuddy-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BudgetBuddy/Pods-BudgetBuddy-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BudgetBuddy/Pods-BudgetBuddy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6F0E9452CB0DE7E0020164F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A697B1432CC0883A0017702D /* GoalForm.swift in Sources */,
+				A62076472CB1774D00C38C52 /* NewWalletForm.swift in Sources */,
+				A62076432CB1774D00C38C52 /* WalletListToolbar.swift in Sources */,
+				A62076462CB1774D00C38C52 /* NewTransactionForm.swift in Sources */,
+				A62076482CB1774D00C38C52 /* SignInForm.swift in Sources */,
+				A62076592CB1775100C38C52 /* MonthlyTransactions.swift in Sources */,
+				A62076422CB1774D00C38C52 /* WalletListForm.swift in Sources */,
+				A62076372CB1774D00C38C52 /* BudgetBreakdownListForm.swift in Sources */,
+				A62076392CB1774D00C38C52 /* GoalsListForm.swift in Sources */,
+				A620763F2CB1774D00C38C52 /* MainFormView.swift in Sources */,
+				A6F0E9AA2CB0E2C90020164F /* ContentView.swift in Sources */,
+				A620763A2CB1774D00C38C52 /* MonthlyInExForm.swift in Sources */,
+				A620763E2CB1774D00C38C52 /* MainFormToolbarForm.swift in Sources */,
+				A62076382CB1774D00C38C52 /* BudgetForm.swift in Sources */,
+				A620763C2CB1774D00C38C52 /* RoundedProgressBarView.swift in Sources */,
+				A6F0E94D2CB0DE7E0020164F /* BudgetBuddyApp.swift in Sources */,
+				A620765C2CB1775100C38C52 /* Wallet.swift in Sources */,
+				A620763D2CB1774D00C38C52 /* LoginForm.swift in Sources */,
+				A675BDD72CC6344F0075F5ED /* MonthlyInfoCash.swift in Sources */,
+				A675BDCB2CC275650075F5ED /* EditGoalForm.swift in Sources */,
+				A62076452CB1774D00C38C52 /* NewGoalForm.swift in Sources */,
+				A62076552CB1775100C38C52 /* BudgetBreakdown.swift in Sources */,
+				A62076412CB1774D00C38C52 /* UserInfoView.swift in Sources */,
+				A675BDCE2CC28EC30075F5ED /* EditTransactionForm.swift in Sources */,
+				A62076562CB1775100C38C52 /* Goal.swift in Sources */,
+				A62076442CB1774D00C38C52 /* NewBudgetBreakdownForm.swift in Sources */,
+				A620763B2CB1774D00C38C52 /* MonthlyInfosForm.swift in Sources */,
+				A62076402CB1774D00C38C52 /* MainFormSidebar.swift in Sources */,
+				A62076582CB1775100C38C52 /* MonthlyInfo.swift in Sources */,
+				A697B1452CC22C050017702D /* PieChart.swift in Sources */,
+				A62076492CB1774D00C38C52 /* MonthlyTransactionsForm.swift in Sources */,
+				A620765A2CB1775100C38C52 /* Transaction.swift in Sources */,
+				A675BDD42CC415A60075F5ED /* TargetMonthDatePicker.swift in Sources */,
+				A62076572CB1775100C38C52 /* MonthlyGoals.swift in Sources */,
+				A620765B2CB1775100C38C52 /* UserInfo.swift in Sources */,
+				A620764B2CB1774D00C38C52 /* WalletEditForm.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A6F0E9552CB0DE7F0020164F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A6F0E9562CB0DE7F0020164F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6F0E9582CB0DE7F0020164F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13A056818B665A76DDFC8734 /* Pods-BudgetBuddy.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BudgetBuddy/Preview Content\"";
+				DEVELOPMENT_TEAM = 9D2PA2YM6R;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fuanmen.BudgetBuddy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A6F0E9592CB0DE7F0020164F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 902CCE71F46B2FC12CD1E71F /* Pods-BudgetBuddy.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BudgetBuddy/Preview Content\"";
+				DEVELOPMENT_TEAM = 9D2PA2YM6R;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = fuanmen.BudgetBuddy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6F0E9442CB0DE7E0020164F /* Build configuration list for PBXProject "BudgetBuddy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6F0E9552CB0DE7F0020164F /* Debug */,
+				A6F0E9562CB0DE7F0020164F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6F0E9572CB0DE7F0020164F /* Build configuration list for PBXNativeTarget "BudgetBuddy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6F0E9582CB0DE7F0020164F /* Debug */,
+				A6F0E9592CB0DE7F0020164F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A6F0E95C2CB0DED70020164F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.3.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A6F0E95D2CB0DED70020164F /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A6F0E95C2CB0DED70020164F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = A6F0E9412CB0DE7E0020164F /* Project object */;
+}
